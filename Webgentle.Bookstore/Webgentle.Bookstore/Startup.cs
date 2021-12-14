@@ -23,6 +23,7 @@ namespace Webgentle.Bookstore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +46,7 @@ namespace Webgentle.Bookstore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }

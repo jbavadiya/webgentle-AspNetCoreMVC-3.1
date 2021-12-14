@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learning\\Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj": {}
+    "E:\\Learning\\Bookstore\\Webgentle.BookStore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj": {}
   },
   "projects": {
-    "E:\\Learning\\Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj": {
+    "E:\\Learning\\Bookstore\\Webgentle.BookStore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj",
+        "projectUniqueName": "E:\\Learning\\Bookstore\\Webgentle.BookStore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj",
         "projectName": "Webgentle.Bookstore",
-        "projectPath": "E:\\Learning\\Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj",
+        "projectPath": "E:\\Learning\\Bookstore\\Webgentle.BookStore\\Webgentle.Bookstore\\Webgentle.Bookstore.csproj",
         "packagesPath": "C:\\Users\\anant\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\Bookstore\\Webgentle.Bookstore\\Webgentle.Bookstore\\obj\\",
+        "outputPath": "E:\\Learning\\Bookstore\\Webgentle.BookStore\\Webgentle.Bookstore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
