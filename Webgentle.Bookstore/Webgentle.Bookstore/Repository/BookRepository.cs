@@ -10,28 +10,28 @@ namespace Webgentle.Bookstore.Repository
     {
         public List<BookModel> GetAllBooks()
         {
-            return DataSource();
+            return Datasource();
         }
 
-        public BookModel GetAllBookById(int id)
+        public BookModel GetBookById(int Id)
         {
-            return DataSource().Where(x => x.Id == id).FirstOrDefault();
+            return Datasource().Where(x => x.Id == Id).FirstOrDefault();
         }
 
         public List<BookModel> SearchBook(string title, string authorName)
         {
-            return DataSource().Where(x => x.Title == title && x.Author == authorName).ToList();
+            return Datasource().Where(x => x.Title == title || x.Author == authorName).ToList();
         }
 
-        private List<BookModel> DataSource()
+        private List<BookModel> Datasource()
         {
             return new List<BookModel>()
-            { 
-               new BookModel(){Id =1, Title="MVC", Author = "Jignesha"},
-               new BookModel(){Id =2, Title="Dot Net", Author = "Jignesh"},
-               new BookModel(){Id =3, Title="C", Author = "Jigna"},
-               new BookModel(){Id =4, Title="Java", Author = "Jigu"},
-               new BookModel(){Id =5, Title="Php", Author = "Gnesha"}
+            {
+                new BookModel(){Id=1, Title="Mvc", Author = "Jignesha"},
+                new BookModel(){Id=2, Title="java", Author = "Anant"},
+                new BookModel(){Id=3, Title="c", Author = "Pari"},
+                new BookModel(){Id=4, Title="c++", Author = "Hari"},
+                new BookModel(){Id=5, Title="javascript", Author = "Jigna"}
             };
         }
     }

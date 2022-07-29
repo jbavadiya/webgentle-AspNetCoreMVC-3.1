@@ -128,5 +128,6 @@ D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\ob
 D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
 D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Book\GetAllBooks.cshtml.g.cs
-D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ContactUs.cshtml.g.cs
 D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\TempView\JigneshaTemp.cshtml.g.cs
+D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Janhavi\Janhavi\Learning\Bookstore\Webgentle.Bookstore\Webgentle.Bookstore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs

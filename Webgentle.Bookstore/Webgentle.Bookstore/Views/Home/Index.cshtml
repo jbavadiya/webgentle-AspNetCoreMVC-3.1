@@ -1,29 +1,70 @@
 ﻿
 @{
-    Layout = null;
+    Layout = "_Layout";
 }
 
-<!DOCTYPE html>
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1>Welcome to Bookstore</h1>
+        <p class="lead text-muted">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Search books</a>
+        </p>
+    </div>
+</section>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-</head>
-<body class="container">
 
-    <img src="~/images/JB.jpg" alt="logo"/>
 
-    <input type="button" value="Click me" class="btn btn-danger"/>
-    <h1 class="h1">Welcome to book store application.</h1>
-   <p>This is a home page of our application.</p>
-</body>
+<div class="py-5 bg-light">
+    <div class="container">
+        <h3 class="h3">Top books</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"focusable="false" role="img"aria-lable="placeholder: Thumbnail"><title>Placeholder</title><rect width="100%"height="200%"></rect></svg>
+                    <div class="card-body">
+                        <p class ="card-text">This section will be used to display the short desxrition of book
+                            <div class ="d-flex justify-content-between align-items-center">
+                                <div class= "btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">view details</a>
+                                </div>
+                                <small class="text-muted">Author name</small>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"focusable="false" role="img"aria-lable="placeholder: Thumbnail"><title>Placeholder</title><rect width="100%"height="200%"></rect></svg>
+                    <div class="card-body">
+                        <p class ="card-text">This section will be used to display the short desxrition of book
+                            <div class ="d-flex justify-content-between align-items-center">
+                                <div class= "btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">view details</a>
+                                </div>
+                                <small class="text-muted">Author name</small>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"focusable="false" role="img"aria-lable="placeholder: Thumbnail"><title>Placeholder</title><rect width="100%"height="200%"></rect></svg>
+                    <div class="card-body">
+                        <p class ="card-text">This section will be used to display the short desxrition of book
+                            <div class ="d-flex justify-content-between align-items-center">
+                                <div class= "btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">view details</a>
+                                </div>
+                                <small class="text-muted">Author name</small>
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<script src="~/lib/jquery/dist/jquery.js"></script>
-</html>
-<script>
-    $(document).ready(function(){
-        alert("page loaded");
-    });
-</script>
+
