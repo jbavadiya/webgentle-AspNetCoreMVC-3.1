@@ -5,6 +5,11 @@
       "ProjectGuid": "34f718d8-f3ad-4f0b-b37d-b142dbf53852",
       "DisplayName": "Webgentle.Bookstore",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

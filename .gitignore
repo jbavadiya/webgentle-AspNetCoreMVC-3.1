@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Webgentle.Bookstore/Webgentle.Bookstore/wwwroot/lib/jquery
+/Webgentle.Bookstore/Webgentle.Bookstore/wwwroot/lib/twitter-bootstrap/css
+/Webgentle.Bookstore/Webgentle.Bookstore/wwwroot/lib/twitter-bootstrap/js
